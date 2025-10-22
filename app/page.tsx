@@ -117,7 +117,7 @@ export default function Home() {
                   <Sparkles className="w-5 h-5 mr-3 mt-1 text-slate-700" />
                   <div>
                     <div className="font-semibold mb-1">AI-Powered Matching</div>
-                    <div className="text-slate-600">Find students who align with your institution&apos;s values and programs</div>
+                    <div className="text-slate-600">Find students who align with your institution's values and programs</div>
                   </div>
                 </li>
                 <li className="flex items-start">

@@ -117,11 +117,11 @@ export default async function DashboardPage({ params }: { params: { id: string }
               <p className="text-slate-600">👋 Welcome to your college journey.</p>
             </div>
 
-            {/* Today&apos;s Matches */}
+            {/* Today's Matches */}
             <section className="mb-8">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h2 className="text-xl font-semibold">Today&apos;s Matches</h2>
+                  <h2 className="text-xl font-semibold">Today's Matches</h2>
                   <p className="text-sm text-slate-600">Like or dismiss to improve your results.</p>
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default async function DashboardPage({ params }: { params: { id: string }
               ) : (
                 <Card>
                   <CardContent className="p-8 text-center">
-                    <p className="text-slate-600">That&apos;s all for now. Check back later for more matches.</p>
+                    <p className="text-slate-600">That's all for now. Check back later for more matches.</p>
                   </CardContent>
                 </Card>
               )}

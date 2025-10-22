@@ -1,25 +1,25 @@
-&apos;use client';
+'use client';
 
-import { useState } from &apos;react';
-import { Button } from &apos;@/components/ui/button';
-import { Input } from &apos;@/components/ui/input';
-import { Textarea } from &apos;@/components/ui/textarea';
-import { Card, CardContent } from &apos;@/components/ui/card';
-import { Mail, Phone, MapPin, Send } from &apos;lucide-react';
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Card, CardContent } from '@/components/ui/card';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: &apos;&apos;,
-    email: &apos;&apos;,
-    institution: &apos;&apos;,
-    message: &apos;&apos;
+    name: '',
+    email: '',
+    institution: '',
+    message: ''
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // In a real app, this would send the form data to a backend
-    alert(&apos;Thank you for your message! We will get back to you soon.&apos;);
-    setFormData({ name: &apos;&apos;, email: &apos;&apos;, institution: &apos;&apos;, message: &apos;&apos; });
+    alert('Thank you for your message! We will get back to you soon.');
+    setFormData({ name: '', email: '', institution: '', message: '' });
   };
 
   return (
@@ -29,7 +29,7 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="mb-6">Get in Touch</h1>
           <p className="text-xl text-slate-600">
-            Ready to transform your enrollment strategy? We&apos;d love to hear from you.
+            Ready to transform your enrollment strategy? We'd love to hear from you.
           </p>
         </div>
 
