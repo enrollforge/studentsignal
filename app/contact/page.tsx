@@ -9,17 +9,17 @@ import { Mail, Phone, MapPin, Send } from &apos;lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
-    name: &apos;',
-    email: &apos;',
-    institution: &apos;',
-    message: &apos;'
+    name: &apos;&apos;,
+    email: &apos;&apos;,
+    institution: &apos;&apos;,
+    message: &apos;&apos;
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // In a real app, this would send the form data to a backend
     alert(&apos;Thank you for your message! We will get back to you soon.&apos;);
-    setFormData({ name: &apos;', email: &apos;', institution: &apos;', message: &apos;' });
+    setFormData({ name: &apos;&apos;, email: &apos;&apos;, institution: &apos;&apos;, message: &apos;&apos; });
   };
 
   return (
