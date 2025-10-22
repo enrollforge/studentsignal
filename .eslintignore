@@ -1,5 +1,1 @@
-app/dashboard/[id]/page.tsx
-app/directory/page.tsx
-app/page.tsx
-app/profile/[id]/page.tsx
-app/signup/page.tsx
+*
