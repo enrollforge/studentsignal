@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudentSignal™
+
+**The smarter way for colleges to connect with students who fit**
+
+StudentSignal is an AI-powered enrollment intelligence platform that helps colleges attract and connect with qualified students more efficiently.
+
+## Features
+
+- 🎓 **Campus Directory** - Browse 1,082+ colleges with detailed profiles
+- 📊 **Student Dashboard** - Personalized college recommendations
+- 🔍 **Smart Matching** - AI-powered college matching algorithm
+- 📝 **3-Step Signup** - Easy student onboarding process
+- 💾 **PostgreSQL Database** - Scalable data storage
+- 🎨 **Modern Design** - Clean, professional Appily-style interface
+
+## Tech Stack
+
+- **Framework:** Next.js 15 with TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui
+- **Database:** PostgreSQL
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Set up environment variables:
+```bash
+PGUSER=your_db_user
+PGPASSWORD=your_db_password
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `/app` - Next.js app directory
+- `/components` - Reusable UI components
+- `/lib` - Utility functions
+- `/public` - Static assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Database Schema
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `colleges` - College information (1,082 records)
+- `students` - Student profiles
+- `student_college_list` - Saved colleges
+- `student_matches` - AI-generated matches
 
-## Deploy on Vercel
+## Powered by EnrollForge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Where Enrollment Meets Intelligence™
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built with ❤️ by Team Lindy
