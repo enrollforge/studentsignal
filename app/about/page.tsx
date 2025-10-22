@@ -1,5 +1,5 @@
-import { Card, CardContent } from '@/components/ui/card';
-import { Target, Users, TrendingUp, Sparkles } from 'lucide-react';
+import { Card, CardContent } from &apos;@/components/ui/card';
+import { Target, Users, TrendingUp, Sparkles } from &apos;lucide-react';
 
 export default function AboutPage() {
   return (
@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h1 className="mb-6">About StudentSignal</h1>
           <p className="text-xl text-slate-600">
-            We're transforming how colleges and students connect through AI-powered enrollment intelligence.
+            We&apos;re transforming how colleges and students connect through AI-powered enrollment intelligence.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function AboutPage() {
         <div className="bg-slate-50 rounded-2xl p-12 text-center">
           <h3 className="mb-4">Powered by EnrollForge</h3>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            StudentSignal is built on EnrollForge's cutting-edge technology platform, combining artificial intelligence, data analytics, and enrollment expertise to deliver unmatched results.
+            StudentSignal is built on EnrollForge&apos;s cutting-edge technology platform, combining artificial intelligence, data analytics, and enrollment expertise to deliver unmatched results.
           </p>
         </div>
       </div>

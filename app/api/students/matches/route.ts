@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     
     // Get colleges that match student preferences
     let query = 'SELECT * FROM colleges WHERE 1=1';
-    const params: any[] = [];
+    const params: unknown[] = [];
     
     // Filter by state if distance preference is set
     if (student.distance_from_home !== 'any_location' && student.home_state) {

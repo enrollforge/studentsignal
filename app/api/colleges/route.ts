@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
       WHERE 1=1
     `;
     
-    const params: any[] = [];
+    const params: unknown[] = [];
     
     if (search) {
       query += ` AND (
@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
       
       // Get total count
       let countQuery = 'SELECT COUNT(*) FROM colleges WHERE 1=1';
-      const countParams: any[] = [];
+      const countParams: unknown[] = [];
       
       if (search) {
         countQuery += ` AND (
