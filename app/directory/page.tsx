@@ -49,7 +49,7 @@ export default function DirectoryPage() {
     try {
       const params = new URLSearchParams({
         search: searchQuery,
-        limit: '100',
+        limit: '2500',
         offset: '0'
       });
       
