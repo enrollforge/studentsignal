@@ -21,7 +21,7 @@ export default function SignupPage() {
     homeZip: '', email: '',
   });
 
-  const updateField = (field: string, value: unknown) => {
+  const updateField = (field: string, value: any) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 

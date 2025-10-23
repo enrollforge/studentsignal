@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Pool } from 'pg';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Home, Search, Heart, GraduationCap, Calendar, DollarSign, User, BookOpen, Settings, Building2, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
@@ -48,6 +49,7 @@ export default async function DashboardPage({ params }: { params: { id: string }
   }
 
   const matches = await getStudentMatches(params.id);
+  const collegeList = await getCollegeList(params.id);
 
   return (
     <div className="min-h-screen bg-slate-50">
